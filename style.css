@@ -16,11 +16,13 @@ h1 {
 body {
 	margin: 0;
 	padding: 0;  
+	font-family: "Frutiger", serif;
 }
 
 .homeBody {
 	margin: 0;
 	padding: 0;
+	font-kerning: "Frutiger", serif;
 	background-image: url("backgroundHome2.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
