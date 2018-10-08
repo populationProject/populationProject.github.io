@@ -15,6 +15,11 @@ h1 {
 
 body {
 	margin: 0;
+	padding: 0;  
+}
+
+.homeBody {
+	margin: 0;
 	padding: 0;
 	background-image: url("backgroundHome2.png");
 	background-repeat: no-repeat;
