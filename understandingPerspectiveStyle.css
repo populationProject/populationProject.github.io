@@ -139,7 +139,7 @@ body {
 
 .line:after {
    content: '';
-   background: gray;
+   background: green;
    height: 25px;
    transition 0.8s;
    display: block;
@@ -189,6 +189,129 @@ body {
 
 .line10:after {
    max-width: 57%;
+}
+
+@keyframes animate {
+   0% {
+      width: 0;
+   }
+
+   100% {
+      width: 100%;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper2 {
+   width: 800px;
+   margin: 0 auto;
+}
+
+#descp {
+   text-align: left;
+}
+
+.wrapper2 h2 {
+   text-align: right;
+   margin-right: 0;
+   padding-right: 0;
+}
+
+.lineN {
+   height: 25px;
+   min-width: 800px;
+   margin: 0 auto 10px;
+   line-height: 25px;
+   font-size: 14px;
+   color: white;
+   padding: 0 0 0 10px;
+   position: relative;
+   text-align: right;
+}
+
+.lineN:before {
+   content: '';
+   width: 100%;
+   position: absolute;
+   right: 0;
+   height: 25px;
+   top: 0;
+   z-index: -2;
+}
+
+.lineN:after {
+   content: '';
+   background: red;
+   height: 25px;
+   transition 0.8s;
+   display: block;
+   width: 100%;
+   animation: animate 1 4s;
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: -1;
+}
+
+.line1N:after {
+   max-width: 11.4%;
+}
+
+.line2N:after {
+   max-width: 12.2%;
+}
+
+.line3N:after {
+   max-width: 21%;
+}
+
+.line4N:after {
+   max-width: 21.6%;
+}
+
+.line5N:after {
+   max-width: 21.6%;
+}
+
+.line6N:after {
+   max-width: 21.6%;
+}
+
+.line7N:after {
+   max-width: 22%;
+}
+
+.line8N:after {
+   max-width: 26%;
+}
+
+.line9N:after {
+   max-width: 34.8%;
+}
+
+.line10N:after {
+   max-width: 55.8%;
 }
 
 @keyframes animate {
