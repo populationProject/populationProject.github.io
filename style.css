@@ -146,7 +146,7 @@ table {
 	width: 95%;
 	height: 500px;
 	margin: 30px;
-	padding: 5px;
+	padding: 10px;
 }
 
 .left {
@@ -157,7 +157,7 @@ table {
 }
 
 .right {
-	margin-left: 50%;
+	margin-left: auto;
 	height: 500px;
 	padding: 5px;
 }
