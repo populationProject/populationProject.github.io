@@ -135,7 +135,6 @@ body {
    height: 25px;
    top: 0;
    z-index: -2;
-   background: lightgray;
 }
 
 .line:after {
@@ -153,30 +152,50 @@ body {
 }
 
 .line1:after {
-   max-width: 50%;
+   max-width: 76.6%;
 }
 
 .line2:after {
-   max-width: 40%;
+   max-width: 70.4%;
 }
 
 .line3:after {
-   max-width: 30%;
+   max-width: 70.2%;
 }
 
 .line4:after {
-   max-width: 20%;
+   max-width: 65%;
 }
 
 .line5:after {
-   max-width: 10%;
+   max-width: 64%;
+}
+
+.line6:after {
+   max-width: 63.8%;
+}
+
+.line7:after {
+   max-width: 60.4%;
+}
+
+.line8:after {
+   max-width: 60%;
+}
+
+.line9:after {
+   max-width: 58.6%;
+}
+
+.line10:after {
+   max-width: 57%;
 }
 
 @keyframes animate {
    0% {
       width: 0;
    }
-   
+
    100% {
       width: 100%;
    }

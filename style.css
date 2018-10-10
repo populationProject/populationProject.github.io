@@ -142,24 +142,33 @@ table {
 	color: white;
 }
 
+.wrapper {
+	text-align: center;
+}
+
 .container {
 	width: 95%;
 	height: 500px;
-	margin: 30px;
-	padding: 10px;
+	margin: 0 auto;
+	padding: auto;
+	display: inline-block;
+	background-color: pink;
 }
 
 .left {
-	width: 50%;
-	height: 500px;
+	width: 45%;
+	height: 475px;
 	float: left;
 	padding: 5px;
+	background-color: red;
 }
 
 .right {
-	margin-left: 45%;
-	height: 500px;
+	width: 45%;
+	margin-left: 50%;
+	height: 475px;
 	padding: 5px;
+	background-color: blue;
 }
 
 img {
