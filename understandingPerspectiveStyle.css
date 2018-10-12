@@ -201,28 +201,6 @@ body {
    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .wrapper2 {
    width: 800px;
    margin: 0 auto;
@@ -314,12 +292,35 @@ body {
    max-width: 55.8%;
 }
 
-@keyframes animate {
-   0% {
-      width: 0;
-   }
+.btn-expand {
+   background-color: white;
+   color: black;
+   z-index: 1000;
+   font-size: 21px;
+   line-height: 21px;
+} 
 
-   100% {
-      width: 100%;
-   }
+img {
+   -webkit-transition-duration: 0.5s;
+   -moz-transition-duration: 0.5s;
+   -o-transition-duration: 0.5s;
+   transition-duration: 0.5s;
+   -webkit-transition-property: -webkit-transform;
+   -moz-transition-property: -moz-transform;
+   -o-transition-property: -o-transform;
+   transition-property: transform;
+}
+
+.crossRotate {
+   height: 15px;
+   width: 15px;
+}
+
+.crossRotateN {
+   height: 15px;
+   width: 15px;
+}
+
+.negShow {
+   text-align: right;
 }
