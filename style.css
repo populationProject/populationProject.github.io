@@ -270,3 +270,9 @@ img {
   	width: 100%;
   	text-align: right;
 }
+
+.carryingCapacity {
+   color: white;
+   font-size: 45px;
+   text-align: center;
+}
