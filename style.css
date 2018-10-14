@@ -1,6 +1,6 @@
 h1 {
 	text-align: center;
-	font-family: "Frutiger", serif;
+	font-family: "Didot", serif;
 	background-color: lightpink;
 	font-weight: bold;
 	font-size: 75px;
@@ -16,13 +16,13 @@ h1 {
 body {
 	margin: 0;
 	padding: 0;  
-	font-family: "Frutiger", serif;
+	font-family: "Didot", serif;
 }
 
 .homeBody {
 	margin: 0;
 	padding: 0;
-	font-family: "Frutiger", serif;
+	font-family: "Didot", serif;
 	background-image: url("backgroundHome2.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -34,7 +34,7 @@ body {
 
 .description {
 	padding: 30px;
-	font-family: "Frutiger", serif;
+	font-family: "Didot", serif;
 	font-size: 30px;
 	color: white;
 }
@@ -117,7 +117,7 @@ body {
 table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
-    font-family: "Frutiger", serif;
+    font-family: "Didot", serif;
     color: white;
 }
 
@@ -137,7 +137,7 @@ table {
 
 .tableDisc {
 	margin: 30px;
-	font-family: "Frutiger", serif;
+	font-family: "Didot", serif;
 	font-size: 25px;
 	color: white;
 }
@@ -254,13 +254,13 @@ img {
 }
 
 .sources {
-	font-family: "Frutiger", serif;
+	font-family: "Didot", serif;
 	font-size: 50px;
 	margin: 30px;
 }
 
 .links > ul > a{
-	font-family: "Frutiger", serif;
+	font-family: "Didot", serif;
 	font-size: 30px;
 	text-decoration: none;
 	color: blue;
@@ -272,7 +272,7 @@ img {
 
 .imageCite {
 	color: white;
-	font-family: "Frutiger", serif;
+	font-family: "Didot", serif;
 	font-size: 10px;
 	right: 16px;
 	bottom: 8px;
@@ -283,12 +283,12 @@ img {
 
 .carryingCapacity {
    color: white;
-   font-size: 45px;
+   font-size: 40px;
    text-align: center;
 }
 
 .ans {
-	font-family: "Frutiger", serif;
+	font-family: "Didot", serif;
 	color: white;
 	padding-left: 5%;
 	width: 95%;
