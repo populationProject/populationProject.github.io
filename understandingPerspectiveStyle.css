@@ -125,11 +125,12 @@ body {
    color: white;
    padding: 0 0 0 10px;
    position: relative;
+   width: 0;   
 }
 
 .line:before {
    content: '';
-   width: 100%;
+   width: 0;
    position: absolute;
    left: 0;
    height: 25px;
@@ -144,11 +145,12 @@ body {
    transition 0.8s;
    display: block;
    width: 100%;
-   animation: animate 1 4s;
+   animation: slide 1 4s;
    position: absolute;
    top: 0;
    left: 0;
    z-index: -1;
+   opacity: 100%;
 }
 
 .line1:after {
@@ -191,7 +193,7 @@ body {
    max-width: 57%;
 }
 
-@keyframes animate {
+@keyframes slide {
    0% {
       width: 0;
    }
@@ -245,7 +247,7 @@ body {
    transition 0.8s;
    display: block;
    width: 100%;
-   animation: animate 1 4s;
+   animation: slide 1 4s;
    position: absolute;
    top: 0;
    right: 0;
