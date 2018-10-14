@@ -286,3 +286,11 @@ img {
    font-size: 45px;
    text-align: center;
 }
+
+.ans {
+	font-family: "Frutiger", serif;
+	color: white;
+	padding-left: 5%;
+	width: 95%;
+	font-size: 25px;
+}
