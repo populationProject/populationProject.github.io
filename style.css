@@ -259,15 +259,24 @@ img {
 	margin: 30px;
 }
 
-.links > ul > a{
+.links > .pertainTo > ul > a{
+	font-family: "Didot", serif;
+	font-size: 25px;
+	text-decoration: none;
+	color: blue;
+	margin-left: 100px;
+	display: block;
+}
+
+.links > .pertainTo > ul > a:hover {
+	text-decoration: underline;
+}
+
+.pertainTo > h3 {
 	font-family: "Didot", serif;
 	font-size: 30px;
 	text-decoration: none;
-	color: blue;
-}
-
-.links > ul > a:hover {
-	text-decoration: underline;
+	margin-left: 75px;
 }
 
 .imageCite {

@@ -324,5 +324,6 @@ img {
 }
 
 .negShow {
-   text-align: right;
+   text-align: left;
+   font-size: 20px;
 }
