@@ -60,7 +60,7 @@ section:nth-child(2) {
 }
 
 section:nth-child(3) {
-	background: url("2bil.jpg");
+	background: url("tooMany.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
@@ -74,7 +74,7 @@ section:nth-child(4) {
 }
 
 section:nth-child(5) {
-	background: url("worldPop.jpg");
+	background: url("worldPop.png");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
@@ -83,14 +83,14 @@ section:nth-child(5) {
 section:nth-child(6) {
 	background: url("finiteResources.jpg");
 	background-repeat: no-repeat;
-	background-size: 80vh;
+	background-size: 80vw 80vh;
 	background-attachment: fixed;
 	background-color: white;
 	background-position: center;
 }
 
 section:nth-child(7) {
-	background: url("tooMany.dms");
+	background: url("2bil.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
