@@ -128,7 +128,7 @@ body {
    width: 0;   
 }
 
-.line:before {
+/*.line:before {
    content: '';
    width: 0;
    position: absolute;
@@ -151,6 +151,56 @@ body {
    left: 0;
    z-index: -1;
    opacity: 100%;
+}*/
+
+.anim:before {
+   content: '';
+   width: 0;
+   position: absolute;
+   left: 0;
+   height: 25px;
+   top: 0;
+   z-index: -2;
+}
+
+.anim:after {
+   content: '';
+   background: green;
+   height: 25px;
+   transition 0.8s;
+   display: block;
+   width: 100%;
+   animation: slide 1 4s;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   opacity: 100%;
+}
+
+.animR:before {
+   content: '';
+   width: 0;
+   position: absolute;
+   right: 0;
+   height: 25px;
+   top: 0;
+   z-index: -2;
+}
+
+.animR:after {
+   content: '';
+   background: red;
+   height: 25px;
+   transition 0.8s;
+   display: block;
+   width: 100%;
+   animation: slide 1 4s;
+   position: absolute;
+   top: 0;
+   right: 0;
+   opacity: 100%;
+   z-index: -1;
 }
 
 .line1:after {
@@ -203,21 +253,6 @@ body {
    }
 }
 
-.wrapper2 {
-   width: 800px;
-   margin: 0 auto;
-}
-
-#descp {
-   text-align: left;
-}
-
-.wrapper2 h2 {
-   text-align: right;
-   margin-right: 0;
-   padding-right: 0;
-}
-
 .lineN {
    height: 25px;
    min-width: 800px;
@@ -228,9 +263,11 @@ body {
    padding: 0 0 0 10px;
    position: relative;
    text-align: right;
+   right: 0px;
+   align-content: right;
 }
 
-.lineN:before {
+/*.lineN:before {
    content: '';
    width: 100%;
    position: absolute;
@@ -252,7 +289,7 @@ body {
    top: 0;
    right: 0;
    z-index: -1;
-}
+}*/
 
 .line1N:after {
    max-width: 11.4%;
@@ -292,6 +329,21 @@ body {
 
 .line10N:after {
    max-width: 55.8%;
+}
+
+.wrapper2 {
+   width: 800px;
+   margin: 0 auto;
+}
+
+#descp {
+   text-align: left;
+}
+
+.wrapper2 h2 {
+   text-align: right;
+   margin-right: 0;
+   padding-right: 0;
 }
 
 .btn-expand {
