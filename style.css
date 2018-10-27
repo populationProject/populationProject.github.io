@@ -98,9 +98,8 @@ section:nth-child(5) {
 section:nth-child(6) {
 	background: url("finiteResources.jpg");
 	background-repeat: no-repeat;
-	background-size: 80vw 80vh;
+	background-size: 100vw 100vh;
 	/*background-attachment: fixed;*/
-	background-color: white;
 	background-position: center;
 }
 
