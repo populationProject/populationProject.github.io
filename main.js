@@ -1,5 +1,5 @@
 var elemPos = [];
-var elemPos2 = []
+var elemPos2 = [];
 
 $(document).ready(function() {
 

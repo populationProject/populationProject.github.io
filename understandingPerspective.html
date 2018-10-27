@@ -167,5 +167,22 @@
 		<div class = "describe">
 			<p class = "describeSummarize">One of the main reasons for a decreasing population is emigration to other countries. This is partly due to an unsustainable economy and/or government. Many countries nearby (or in some cases, far away) offer better opportunities for living, such as higher wages, but similar living costs. </p>
 		</div>
+		<a href = "#" class = "scrollToTop"><i class = "fa fa-arrow-up"></i></a>
+		<script src = "https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+		<script type = "text/javascript">
+			$(document).ready(function() {
+				$(window).scroll(function() {
+					if($(this).scrollTop() > 200) {
+						$('.scrollToTop').fadeIn();
+					} else {
+						$('.scrollToTop').fadeOut();
+					}
+				});
+
+				$('.scrollToTop').click(function() {
+					$('html, body').animate({scrollTop: 0})
+				})
+			});
+		</script>
 	</body>
 </html>  

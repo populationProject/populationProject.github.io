@@ -175,10 +175,27 @@
 			    modal.style.display = "none";
 			}
 		</script>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src = "https://unpkg.com/aos@next/dist/aos.js"></script>
   		<script>
     		AOS.init();
   		</script>
+  		<a href = "#" class = "scrollToTop"><i class = "fa fa-arrow-up"></i></a>
+		<script src = "https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+		<script type = "text/javascript">
+			$(document).ready(function() {
+				$(window).scroll(function() {
+					if($(this).scrollTop() > 200) {
+						$('.scrollToTop').fadeIn();
+					} else {
+						$('.scrollToTop').fadeOut();
+					}
+				});
+
+				$('.scrollToTop').click(function() {
+					$('html, body').animate({scrollTop: 0})
+				})
+			});
+		</script>
 		<footer>
 			<div class = "imageCite">Image from http://uxblog.idvsolutions.com/2013/10/dasymetric-dot-density-and-uncanny.html</div>
 		</footer>

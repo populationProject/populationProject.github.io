@@ -458,3 +458,22 @@ img {
 	font-size: 15px;
 	color: black;
 }
+
+.scrollToTop {
+   position: fixed;
+   bottom: 50px;
+   right: 50px;
+   width: 60px;
+   height: 60px;
+   line-height: 60px;
+   text-align: center;
+   background: gray;
+   color: white;
+   animation: 1s;
+   border-radius: 50%;
+   display: none;
+}
+
+.scrollToTop:hover {
+   background: pink;
+}
