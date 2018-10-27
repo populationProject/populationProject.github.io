@@ -375,7 +375,29 @@ img {
    width: 15px;
 }
 
+.crossRotateN:hover {
+   cursor: pointer;
+}
+
+.crossRotate:hover {
+   cursor: pointer;
+}
+
 .negShow {
    text-align: left;
    font-size: 20px;
+}
+
+.describe {
+   text-align: left;
+   padding-right: 75px;
+   padding-left: 75px;
+   padding-top: 15px;
+   padding-right: 15px;
+}
+
+.describe > .describeSummarize {
+   font-family: "Didot", serif;
+   font-size: 25px;
+   font-color: black;
 }

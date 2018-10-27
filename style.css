@@ -19,6 +19,21 @@ body {
 	font-family: "Didot", serif;
 }
 
+#carbonFtp {
+	background: url("carbonFootprint.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 50vw;
+	background-position: center;
+}
+
+#overpopulationSol {
+	/*background: url("overpop.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;*/
+}
+
 section h2 {
 	color: white;
 	font-family: "Didot", serif;
@@ -396,15 +411,14 @@ img {
 	margin: 50px;
 	padding: 15px;
 	margin-top: 0;
+	/*background-color: rgba(0, 0, 0, 0.5);*/
 }
 
 .carbonFootprint > p {
 	font-family: "Didot", serif;
+	/*color: #080072;*/
 	color: black;
 	font-size: 25px;
-}
-
-.actionsTook {
 }
 
 .actionsTook > p {
@@ -433,4 +447,15 @@ img {
 .imgWrapper {
 	align-content: center;
 	text-align: center;
+}
+
+.caste {
+	float: center;
+	text-align: center;
+}
+
+.caste > p{
+	font-family: "Didot", serif;
+	font-size: 15px;
+	color: black;
 }
