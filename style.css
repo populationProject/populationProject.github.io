@@ -282,6 +282,7 @@ img {
 
 #myImg:hover {
 	opacity: 0.9;
+	cursor: pointer;
 }
 
 .modal {
