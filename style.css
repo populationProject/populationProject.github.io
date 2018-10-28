@@ -503,3 +503,10 @@ img {
 .aboutWrapper > h2 {
 	font-size: 50px;
 }
+
+.usHeader {
+	font-family: "Didot", serif;
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
