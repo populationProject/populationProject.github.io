@@ -60,7 +60,7 @@ section {
 section:nth-child(1) {
 	background: url("industrialRevolution.jpg");
 	background-repeat: no-repeat;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -71,35 +71,35 @@ section:nth-child(2) {
 	background: url("popImage.png");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 }
 
 section:nth-child(3) {
 	background: url("tooMany.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 }
 
 section:nth-child(4) {
 	background: url("3bil.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 }
 
 section:nth-child(5) {
 	background: url("worldPop.png");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 }
 
 section:nth-child(6) {
 	background: url("finiteResources.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	background-position: center;
 }
 
@@ -107,14 +107,14 @@ section:nth-child(7) {
 	background: url("2bil.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 }
 
 section:nth-child(8) {  
 	background: url("progressingTech.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 }
 
 .homeBody {
@@ -476,4 +476,29 @@ img {
 
 .scrollToTop:hover {
    background: pink;
+}
+
+.vidWrapper {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.vidDescp {
+	font-family: "Didot", serif;
+	font-size: 25px;
+	color: black;
+}
+
+.aboutWrapper {
+	font-family: "Didot", serif;
+	color: black;
+	margin: 50px;
+}
+
+.aboutWrapper > p {
+	font-size: 40px;
+}
+
+.aboutWrapper > h2 {
+	font-size: 50px;
 }
