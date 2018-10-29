@@ -535,3 +535,7 @@ img {
 .note > p {
 	font-size: 20px;
 }
+
+.interactiveWrapper {
+	text-align: center;
+}
