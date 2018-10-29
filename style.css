@@ -511,7 +511,7 @@ img {
 	font-size: 50px;
 	text-align: center;
 }
-/* +19 lines*/
+
 .reasonForExp {
 	font-family: "Didot", serif;
 	color: white;
@@ -523,5 +523,15 @@ img {
 }
 
 .reasonForExp > p {
+	font-size: 20px;
+}
+
+.note {
+	font-family: "Didot", serif;
+	color: white;
+	margin: 50px; 
+}
+
+.note > p {
 	font-size: 20px;
 }
