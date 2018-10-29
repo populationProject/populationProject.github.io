@@ -511,3 +511,17 @@ img {
 	font-size: 50px;
 	text-align: center;
 }
+/* +19 lines*/
+.reasonForExp {
+	font-family: "Didot", serif;
+	color: white;
+	margin: 50px;
+}
+
+.reasonForExp > h4 {
+	font-size: 45px;
+}
+
+.reasonForExp > p {
+	font-size: 20px;
+}
