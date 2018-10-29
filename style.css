@@ -533,6 +533,13 @@ img {
 	margin: 50px; 
 }
 
+.note2 {
+	font-family: "Didot", serif;
+	color: black;
+	margin: 50px;
+	font-size: 25px;
+}
+
 .note > p {
 	font-size: 20px;
 }
